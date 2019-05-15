@@ -1,0 +1,98 @@
+header{
+    background: linear-gradient(to right, rgba(255,0,0,1), rgba(255,255,0,0));
+    height:100vh;
+    background-size:cover;
+}
+body
+{
+    margin:0px;
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imgcontainer
+{
+    width:200px;
+    border : 2px solid white;
+    background-color : white;
+    margin-top:50px;
+    margin-left:50px;
+    padding:30px;
+    border-radius: 15px;
+}
+
+.allmenu
+{
+    list-style:none;
+    float:right;
+    margin-top: -90px;
+ 
+    color: red;
+}
+.eachitem
+{
+    display:inline;
+    font-size:200%;
+    margin-left: 40px;
+    
+
+}
+
+.messagecontainer
+{
+    font-size:400%;
+    position: absolute;   
+    top : 40%;
+    left : 10%;
+
+}
+
+.message
+{
+    color: burlywood;
+}
+
+.highlight
+{
+    font-weight:bold;
+    color:goldenrod;
+}
+
+button
+{
+    font-size:50%;
+    background-color: brown;
+    border: 4px solid lightcoral;
+    border-radius : 15px;
+    color: lightgoldenrodyellow;
+    padding: 30px;
+    margin-right : 30px;
+    margin-top : 30px;
+}
+
+.eachitem:hover{
+    color: yellow;
+    border-bottom: 8px solid goldenrod;
+    transition: all 0.3s ease-in-out;
+}
+.highlight:hover
+{
+    color: yellow;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover{
+    font-size:40px;
+
+}
+
+.videobackground
+{
+    position: fixed;
+
+    min-width: 100%;
+    min-height: 100%;
+    width : auto;
+    height : auto;
+    z-index: 100;
+
+}
